@@ -8,8 +8,8 @@
     
 
         // EXERCICIO verificar se o usuário preencheu o nome e a senha antes de adicionar ao localStorage 
-    
-        // EXERCICIO fazer uma função para verificar se o usuário inseriu letras e números na senha antes de adicionar ao localStorage
+        
+    // EXERCICIO fazer uma função para verificar se o usuário inseriu letras e números na senha antes de adicionar ao localStorage
        
         if (!name || !password) {
             alert('Por favor, preencha tanto o nome quanto a senha.');
@@ -32,7 +32,8 @@
         document.getElementById('name').value = '';
         document.getElementById('password').value = '';
     }
-
+    
+    // Função para verificar se a senha contém letras e números
     function validarSenha(senha) {
         const contemLetra = /[a-zA-Z]/.test(senha);
         const contemNumero = /[0-9]/.test(senha);

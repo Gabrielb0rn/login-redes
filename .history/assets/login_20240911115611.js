@@ -1,4 +1,5 @@
-function irParaCadastro() {
+
+  function irParaCadastro() {
     document.location.href = './cadastro.html';
 }
 
