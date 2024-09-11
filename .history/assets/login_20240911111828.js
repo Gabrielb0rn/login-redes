@@ -19,7 +19,7 @@ function irParaCadastro() {
 
 // EXERCICIO redirecionar o usuário para a tela de bem vindo 
 
-      document.location.href = 'https://gabrielb0rn.github.io/EasyDesk.io/';
+      document.location.href = '';
       } else {
         alert('Usuário ou senha inválidos');
       }
