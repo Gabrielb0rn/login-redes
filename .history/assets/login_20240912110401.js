@@ -25,7 +25,7 @@ function login() {
 
     // EXERCICIO redirecionar o usuário para a tela de bem vindo -- 
     if (login && obj.name === login.name && obj.password === login.password) {
-        document.location.href = 'bemvixndo.html';
+        document.location.href = 'bemvindo.html';
     } else {
         errorMessage.style.display = 'block';
         errorMessage.textContent = 'Usuário ou senha inválidos.';
